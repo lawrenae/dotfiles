@@ -1,6 +1,7 @@
 function toggleproxy {
     if [ -z "$PROXY_PASSWORD" ]; then
-        read -p "enter enter your proxy password: " PROXY_PASSWORD
+        read -s -p "enter your proxy password: " PROXY_PASSWORD
+        echo ""
     fi
     PROXY_URL="http://al74682:$PROXY_PASSWORD@cdcproxy.kroger.com:3128/" 
     #PROXY_URL="http://localhost:3128/" 
