@@ -1,0 +1,35 @@
+[core]
+	excludesfile = /Users/al74682/.gitignore_global
+	editor = /usr/bin/vim
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[user]
+	email = andrew.lawrence@kroger.com
+	name = Lawrence, Andrew
+[push]
+	default = simple
+[commit]
+	template = /Users/al74682/.stCommitMsg
+[color]
+        branch = auto
+        diff = auto
+        status = auto
+[color "branch"]
+        current = yellow reverse
+        local = yellow
+        remote = green
+[color "diff"]
+        meta = yellow bold
+        frag = magenta bold
+        old = red bold
+        new = green bold
+[color "status"]
+        added = yellow
+        changed = green
+        untracked = cyan
+[apply]
+	whitespace = nowarn
