@@ -1,7 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/Users/al74682/src/kroger/projects/rxwebsite/rxweb/build'
-let g:netrw_dirhist_2='/Users/al74682/.atom/.apm'
-let g:netrw_dirhist_3='/Users/al74682/.config'
-let g:netrw_dirhist_4='/Users/al74682/.atom/.apm'
-let g:netrw_dirhist_5='/Users/al74682/src/kroger/projects/batman/kroger-store-locator-bff/app/src/main/resources'
+let g:netrw_dirhist_cnt =0

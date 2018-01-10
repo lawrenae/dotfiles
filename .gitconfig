@@ -1,11 +1,12 @@
 [core]
 	excludesfile = /Users/al74682/.gitignore_global
 	editor = /usr/bin/vim
+	autocrlf = input
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
 [mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [user]
 	email = andrew.lawrence@kroger.com
@@ -33,3 +34,4 @@
         untracked = cyan
 [apply]
 	whitespace = nowarn
+[credential]
