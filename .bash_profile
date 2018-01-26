@@ -78,3 +78,4 @@ export PS1="\w \$(__git_ps1 \" ${YELLOW}(%s)${RESET} \")\$ "
 
 export PATH=$PATH:/usr/local/bin
 
+source /usr/local/bin/virtualenvwrapper.sh
