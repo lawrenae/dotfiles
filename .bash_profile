@@ -78,4 +78,7 @@ export PS1="\w \$(__git_ps1 \" ${YELLOW}(%s)${RESET} \")\$ "
 
 export PATH=$PATH:/usr/local/bin
 
+#turn it on by default
+toggleproxy
+
 source /usr/local/bin/virtualenvwrapper.sh
