@@ -17,7 +17,7 @@ Plugin 'L9'
 " Plugin 'wincent/command-t'
 Plugin 'kien/ctrlp.vim'
 Plugin 'elzr/vim-json'
-Plugin 'vim-multiple-cursors'
+"Plugin 'vim-multiple-cursors'
 call vundle#end()            " required
 filetype plugin indent on    " required
 " set the X11 font to use
@@ -109,4 +109,4 @@ set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_working_path_mode = 'ra'
-let g:multi_cursor_skip_key='<C-x>'
+"let g:multi_cursor_skip_key='<C-x>'
