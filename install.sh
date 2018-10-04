@@ -10,3 +10,9 @@ ln -sfv "$DOTFILES_DIR/.vimrc" ~
 ln -sfv "$DOTFILES_DIR/.gitconfig" ~
 ln -sfv "$DOTFILES_DIR/.gitignore_global" ~
 
+#make key repeats work correctly in VSCode
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
+
+
+#setup vundle
+vim +PluginInstall +qall
