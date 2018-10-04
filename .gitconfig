@@ -13,8 +13,6 @@
 	name = Lawrence, Andrew
 [push]
 	default = simple
-[commit]
-	template = /Users/al74682/.stCommitMsg
 [color]
         branch = auto
         diff = auto
