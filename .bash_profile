@@ -81,4 +81,3 @@ export PATH=$PATH:/usr/local/bin
 #turn it on by default
 toggleproxy
 
-source /usr/local/bin/virtualenvwrapper.sh

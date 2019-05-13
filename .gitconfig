@@ -33,3 +33,5 @@
 [apply]
 	whitespace = nowarn
 [credential]
+[commit]
+	template = /Users/al74682/.stCommitMsg
